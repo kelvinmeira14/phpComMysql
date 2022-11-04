@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Porto</title>
+        <style>
+            
+            body{
+                font-family: arial,helvetica, sans-serif;
+                background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+  }
+  .box{
+      position: absolute;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0,0,0,0.8);
+      padding: 15px;
+      border-radius: 15px;
+      color: white;
+      
+      
+      
+      
+      
+      
+      
+  }
+            
+            
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <div class="box">
+            
+            <form action="inserir_clientes.php" method="POST">
+                
+                <fieldset>
+                    <legend>Cadastro de Clientes</legend><!-- comment -->
+                    
+                    <div class="inputBox"><!-- comment -->
+                        
+                        <input type="text" name="nome" id="nome" class="inputUser" required><!-- comment -->
+                        <label for="nome">Nome Completo</label>
+                    </div>
+                    <br><!-- comment -->
+                    
+                    <div class="inputBox"><!-- comment -->
+                        <input type="text" name="numero" id="numero" class="inputUser" required><!-- comment -->
+                        <label for="numero">Conteiner</label>
+                    </div>
+                    
+                    <p>Status:</p><!-- comment -->
+                    <input type="radio" name="status" id="Cheio" value="Cheio" required><!-- comment -->
+                    <label for="Cheio">Cheio</label>
+                    <br>
+                    <input type="radio" name="status" id="Vazio" value="Vazio" required><!-- comment -->
+                    <label for="Vazio">Vazio</label>
+                    
+                    <p>Tipo:</p><!-- comment -->
+                    <input type="radio" name="tipo" id="20" value="20" required>
+                    <label for="20">20</label><!-- comment -->
+                    <br><!-- comment -->
+                    <input type="radio" name="tipo" id="40" value="40" required>
+                    <label for="40">40</label>
+                    <br><!-- comment -->
+                    
+                    <p>Categoria:</p><!-- comment -->
+                    <input type="radio" name="categoria" id="Importacao" value="Importacao" required>
+                    <label for="Importacao">Importacao</label>
+                    <br><!-- comment -->
+                     <input type="radio" name="categoria" id="Exportacao" value="Exportacao" required>
+                    <label for="Exportacao">Exportacao</label>
+                    
+                    
+                    <p>____________________________________________________</p><!-- comment -->
+                    
+                    <p>Movimentação:</p><!-- comment -->
+                     <input type="radio" name="movimento" id="Embarque" value="Embarque" required>
+                    <label for="Embarque">Embarque</label>
+                    <br><!-- comment -->
+                    <input type="radio" name="movimento" id="Descarga" value="Descarga" required>
+                    <label for="Descarga">Descarga</label>
+                    <br><!-- comment -->
+                    <input type="radio" name="movimento" id="Gate-in" value="Gate-in" required>
+                    <label for="Gate-in">Gate-in</label>
+                    <br><!-- comment -->
+                    <input type="radio" name="movimento" id="Gate-out" value="Gate-out" required>
+                    <label for="Gate-out">Gate-out</label>
+                    <br><!-- comment -->
+                    <input type="radio" name="movimento" id="Reposicionamento" value="Reposicionamento" required>
+                    <label for="Reposicionamento">Reposicionamento</label>
+                    <br><!-- comment -->
+                    <input type="radio" name="movimento" id="Pesagem" value="Pesagem" required>
+                    <label for="Pesagem">Pesagem</label>
+                    <br><!-- comment -->
+                    <input type="radio" name="movimento" id="Scanner" value="Scanner" required>
+                    <label for="Scanner">Scanner</label>
+                    
+                    <br><!-- comment -->
+                    <p>Data e Horario: </p><!-- comment -->
+                    <br><!-- comment -->
+                    <p>Inicio:</p>
+                    <input type="date" name="dtinicio" id="dataInicio" required><!-- comment -->
+                    <input type="time" name="horainicio" id="horainicio" required><!-- comment -->
+                    <br><!-- comment -->
+                    <p>FIM:</p><!-- comment -->
+                    <input type="date" name="dtfim" id="dataFim" required><!-- comment -->
+                    <input type="time" name="horafim" id="horafim" required><!-- comment -->
+                    <br><!-- comment -->
+                    <input type="submit" name="submit" id="submit"><!-- comment -->
+                    
+                       </form><!-- comment -->
+                     </fieldset><!-- comment -->
+        </div>
+                    
+   </body>
+</html>
+                   
+                    
+                    
+                           
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                   
+ 
+                    
+                    
+                         
+                        
+                
+                
